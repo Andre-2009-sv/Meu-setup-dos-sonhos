@@ -1,0 +1,68 @@
+body {
+    background-color: #101522;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    }
+    
+    h1 {
+    color: #00d9ff;
+    margin: 30px;
+    }
+    
+    .setup {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+    
+    .item {
+    background-color: #20283a;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    
+    .item h2 {
+    font-size: 20px;
+    }
+    
+    .item p {
+    color: #cccccc;
+    }
+    
+    .seta {
+    font-size: 30px;
+    color: #00d9ff;
+    }
+    
+    button {
+    background-color: #00d9ff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #00aeca;
+    }
+    
+    #mensagem {
+    background-color: #183d28;
+    color: #5cff91;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+    }
+    
+    .video {
+    margin-top: 40px;
+    }
+    
+    video {
+    max-width: 90%;
+    }
